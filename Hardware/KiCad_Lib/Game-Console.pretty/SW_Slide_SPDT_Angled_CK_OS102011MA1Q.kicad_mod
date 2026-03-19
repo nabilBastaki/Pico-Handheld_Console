@@ -1,0 +1,281 @@
+(footprint "SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
+	(tags "switch SPDT")
+	(property "Reference" "REF**"
+		(at 1.95 0.06 180)
+		(layer "F.SilkS")
+		(uuid "ae56969f-5672-488a-a2e6-fb7e588e70cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 4.46 3.77 180)
+		(layer "F.SilkS")
+		(uuid "b7dbdcf5-11f6-488c-8365-f8f2f72416ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04d8318c-4e98-404a-b2c2-ab7c7c58e699")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cd5f9da-fc96-46ff-a3bf-0e4e44e8d79d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.47 8.01)
+		(end 8.3 8.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d392e7a8-2af5-41d4-96ad-c3d56d5f5b37")
+	)
+	(fp_line
+		(start -4.4 -4.4)
+		(end 8.4 -4.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b00faeee-a725-4844-9077-76a0065119da")
+	)
+	(fp_rect
+		(start -4.59 -4.58)
+		(end 8.59 8.18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0b3a23e2-3371-4dad-8f07-f954e212d4d0")
+	)
+	(fp_line
+		(start -4.4 -4.2)
+		(end -4.4 7.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "680d5831-cf1c-4d84-9634-91d211f3c8dc")
+	)
+	(fp_line
+		(start -4.4 -4.2)
+		(end 8.4 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38e643a8-3334-4e7d-951c-8fbbc51d8f38")
+	)
+	(fp_line
+		(start -4.37 7.81)
+		(end 8.43 7.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfc2994a-f789-429c-8347-2e95af671557")
+	)
+	(fp_line
+		(start -3.19 14.32)
+		(end -3.19 8.01)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "410bd9d7-54e0-46d1-92f5-d0d89ec4dea2")
+	)
+	(fp_line
+		(start 0.61 8.01)
+		(end 0.61 14.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc7f8951-2b19-49e5-aae0-e9482d3c2fdb")
+	)
+	(fp_line
+		(start 0.62 14.32)
+		(end -3.18 14.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f4062e9-d68f-4287-99d1-6dcaeb521cb8")
+	)
+	(fp_line
+		(start 8.4 7.8)
+		(end 8.4 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2826c1c-6836-4df1-a4c2-43858d1818ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.3 1.7 180)
+		(layer "F.Fab")
+		(uuid "2dcafb97-03ed-465d-9bbb-858977606506")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9db821ba-8109-4f05-bbf6-8f81b82b890a")
+		(pts
+			(xy 116.8 81.56) (xy 116.8 87.56)
+		)
+		(height -0.68)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "6"
+			(at 115.02 84.56 90)
+			(layer "Dwgs.User")
+			(uuid "9db821ba-8109-4f05-bbf6-8f81b82b890a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9f4531f6-f4f7-4452-8c9d-86f18f576171")
+		(pts
+			(xy 118.35 76.34) (xy 118.2 87.1)
+		)
+		(height -5.02)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.76"
+			(at 112.23 81.72 90)
+			(layer "Dwgs.User")
+			(uuid "9f4531f6-f4f7-4452-8c9d-86f18f576171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.85 -2.76)
+		(size 2.6 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35477ee8-82ff-4a6b-8cf6-4d01415293ba")
+	)
+	(pad "2" thru_hole oval
+		(at 1.95 -2.76)
+		(size 2.6 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "870c28c8-751b-4dd8-8c2d-246c52731bb2")
+	)
+	(pad "3" thru_hole oval
+		(at 6.75 -2.76)
+		(size 2.6 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c4edb40-e7b1-42a4-896e-f9c57a94ef9a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Game_Of_Bricks_Lib/Game_Of_Bricks.3dshapes/SPDT_Slide_L102021ML04Q.step"
+		(offset
+			(xyz 2 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

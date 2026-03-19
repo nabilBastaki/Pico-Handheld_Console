@@ -1,0 +1,239 @@
+(footprint "TRIM_3352T-1-502LF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "bdaf5043-994c-446e-9e54-4f8ca31d2e34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Potentiometer_Trim"
+		(at 15.09 2 180)
+		(layer "F.SilkS")
+		(uuid "628c0cff-894f-4e41-aaaf-00bff85ffe44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3809e8f2-726c-42f7-be12-d15cbd07da83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "261f9efb-a76b-439f-9d39-659f8d5b9c17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.445 0)
+		(end -4.445 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e786eac-a6e7-4127-83cb-f99cb412494e")
+	)
+	(fp_line
+		(start -4.445 5.08)
+		(end 4.445 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61d65225-dc14-44d6-9356-d3f365e5d903")
+	)
+	(fp_line
+		(start 4.445 0)
+		(end 4.445 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cff7cfe9-8cce-45b6-b2c0-32b6d24c5e74")
+	)
+	(fp_arc
+		(start -4.445 0)
+		(mid 0 -4.445)
+		(end 4.445 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d1fad65-3f2d-4374-beec-17133318f77c")
+	)
+	(fp_circle
+		(center -5 2.8)
+		(end -4.9 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f63bb3ed-429f-4a08-a161-ad78370f148d")
+	)
+	(fp_line
+		(start -4.695 0)
+		(end -4.695 5.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9082ab8-c00c-4c76-a74d-3b7b859c53ea")
+	)
+	(fp_line
+		(start -4.695 5.33)
+		(end 4.695 5.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5328ce92-b7d4-4d08-a9c3-67730a39ee0f")
+	)
+	(fp_line
+		(start 4.695 5.33)
+		(end 4.695 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a42e6f73-7d0a-445b-b3ed-3b9748c19b74")
+	)
+	(fp_arc
+		(start -4.695 0)
+		(mid 0 -4.695)
+		(end 4.695 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d01430af-c802-4131-9002-737bb4025a07")
+	)
+	(fp_line
+		(start -4.445 0)
+		(end -4.445 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bdb9dc4-99c6-4405-a3a3-3f8a6c8ffe5a")
+	)
+	(fp_line
+		(start -4.445 5.08)
+		(end 4.445 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecb4e53b-30f8-4e22-8aa9-58db09b49bb1")
+	)
+	(fp_line
+		(start 4.445 5.08)
+		(end 4.445 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccb2f0e7-856e-4cba-855d-1fcd512eff6c")
+	)
+	(fp_circle
+		(center -5 2.8)
+		(end -4.9 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f04a7624-44cf-4c70-a70a-1971aee44d91")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.445 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b64f6200-fde6-42f6-9c82-95d70d22f239")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 2.87 180)
+		(size 1.16 1.16)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(zone_connect 2)
+		(uuid "c19acf24-bfaf-4f97-90ec-bf0c964601d6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.87 180)
+		(size 1.16 1.16)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8777b791-ed88-400d-bdb3-212828c179e4")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 2.87 180)
+		(size 1.16 1.16)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "989f3b4a-886a-48c7-bb12-57a1b18ea330")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Game_Of_Bricks_Lib/Game_Of_Bricks.3dshapes/3352T-1-502LF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

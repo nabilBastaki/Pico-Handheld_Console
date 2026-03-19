@@ -1,0 +1,160 @@
+(footprint "Buzzer_14mm-7.6mmXDCR_CPT-147-85T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.715 -8.255 0)
+		(layer "F.SilkS")
+		(uuid "81ced258-64c1-4aac-8ba9-0f3b65077ffe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 1.27 8.255 0)
+		(layer "F.Fab")
+		(uuid "2d0d693b-26cf-4190-8574-b4014cec6ee0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a3618ce-b68a-4c64-984a-c53023fd8b61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzer, polarized"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba250f24-fd50-425d-9c82-b3812c690ccd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fa22d2eb-d180-4024-89ac-59a7c862ff7d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "34b36d32-2143-44e0-81e4-6699cdf4a798")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9c5eca8b-e36c-48fa-b8d0-60978343ed2e")
+	)
+	(fp_text user "-"
+		(at -0.381 8.636 0)
+		(layer "F.SilkS")
+		(uuid "8441921b-4c11-483d-ac6b-dcf9861b2eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.508 -7.874 0)
+		(layer "F.SilkS")
+		(uuid "c880b544-d948-4b3d-99cf-831f7a206d66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.508 -7.874 0)
+		(layer "F.Fab")
+		(uuid "9c0dd7b4-1d0a-4cd3-b33d-611c98c6cc4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -0.381 8.636 0)
+		(layer "F.Fab")
+		(uuid "be396913-ac06-4ef3-9513-3a30ebde399f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.8)
+		(size 2.5 2.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "41f7b454-0aa4-4383-936c-aad45c704977")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.8)
+		(size 2.5 2.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bacc604b-3a99-447a-b73d-ef72b2e1d0ae")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Game_Of_Bricks_Lib/Game_Of_Bricks.3dshapes/Buzzer_14mm-7.6mmXDCR_CPT-147-85T.step"
+		(offset
+			(xyz 0 -5.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
