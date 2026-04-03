@@ -1,4 +1,4 @@
-# 🎮 Raspberry Pi Pico 2W Handheld Console
+# 🎮 Raspberry Pi Pico 2W Handheld Console (battery charging and protection has an issue). If you need to implement it, then remove the battery, and related items such as U1, U3, Q3, Q1, Q4, and resistors, caps, etc. Will update this site later once the modifications are updated. Another issue was with the buzzer, the sound is too low and hardware needs an update. 
 
 Welcome to the Pico 2W Handheld Console project! This repository contains all the hardware files, software firmware, and step-by-step instructions needed to build your own portable gaming device.
 
